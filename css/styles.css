@@ -1,0 +1,479 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* ----aqui comienza el header */
+
+header{
+    background: url('../imgs/img_Header2.jpg') #49a3d6;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+
+    /* css\imgcss\img_HeaderOp.jpg */
+   
+}
+
+header .menuNav {
+
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menuNav a {
+
+    margin: 0 40px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1em;
+    padding-bottom: 7px;
+    border-bottom: 2px solid transparent;
+
+}
+
+header .menuNav a:hover {
+
+   
+    border-bottom: 2px solid #ffffff;
+    
+
+}
+
+header .contieneTexto {
+
+    display: flex;
+    margin: 190px 0;
+    justify-content: center;
+    align-content: center;
+    
+    /*  */
+
+}
+
+
+header .contieneTexto .texto {
+
+    border: 3px solid #f8f8f7;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 45px 5px;
+    background: #0000006b;
+     
+
+}
+
+
+header .contieneTexto .texto h1{
+
+   font-weight: 300; 
+   font-size: 40px;
+   color: #f8f8f7;
+   margin: 0;
+
+}
+
+header .contieneTexto .texto h2 {
+    font-weight: 300;
+    font-size: 34px;
+    color: #FFFAC4;
+    margin: 0;
+}
+
+
+/* main o contenido pricnipal  */
+
+.main .acercaMio{
+
+    text-align: center;
+
+}
+
+.main .container {
+
+    overflow: visible;
+}
+
+ .main .acercaMio .fotoRafa {
+   
+    margin-top: -95px;
+}
+
+
+.main .acercaMio .fotoRafa img {
+   
+    vertical-align: top;
+    border-radius: 50%;
+    border: 7px solid #6fa5b379;
+
+}
+
+.main .acercaMio .texto {
+
+    color: #5A5A5A;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 34px;
+    /* width: 80%; */
+    margin: 40px 0;
+}
+
+
+
+.main .acercaMio .texto .titulo {
+
+    color: #511A99 ;
+    font-size: 34px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 46px;
+    
+}
+
+.main .acercaMio .texto .bold {
+
+    color: #8587fe;
+    text-decoration: underline;
+    
+    
+    
+
+    
+}
+
+.main .trabajos {
+
+    background: #F2F2F2;
+    padding: 50px 0;
+}
+
+
+
+
+/* .main .trabajos .container  {
+
+    
+    overflow: hidden;
+
+
+
+} */
+
+
+.main .trabajos .container .titulo {
+
+    color: #511A99 ;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 46px;
+    
+
+
+
+}
+
+.main .trabajos .contenedor_Trabajos {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.main .trabajos .contenedor_Trabajos .trabajo {
+
+    width: 23%;
+    margin-bottom: 50px;
+}
+
+.main .trabajos .contenedor_Trabajos .trabajo .thumb {
+
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+.main .trabajos .contenedor_Trabajos .trabajo .thumb img {
+    /* vertical-align: top; */
+    width: 100%;
+    border-radius: 7px;
+
+
+
+}
+
+
+.main .trabajos .contenedor_Trabajos .trabajo .descripcion {
+
+    text-align: center;
+
+}
+
+
+.main .trabajos .contenedor_Trabajos .trabajo .descripcion .nombre {
+
+    font-weight: 700;
+    font-size: 25px;
+    color: #FE85B2;
+
+}
+
+.main .trabajos .contenedor_Trabajos .trabajo .descripcion .categoria {
+
+    font-weight: 300;
+    font-size: 18px;
+    color: #FE85B2;
+    line-height: 34px;
+
+}
+
+
+.main .trabajos p { 
+
+    color: #5A5A5A;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 34px;
+    /* width: 80%; */
+    margin: 40px 0;
+
+    
+}
+
+
+
+
+/* footer */
+
+footer .contacto {
+    padding: 50px 0;
+    background: #6fa5b3a9;
+    margin-bottom: 40px;
+}
+
+
+footer .contacto .titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 46px;
+}
+
+
+footer .contacto .formulario {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+
+    border:2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #a4a4a4;
+
+
+}
+
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus {
+
+    border:2px solid #25acce;
+
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"] {
+
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+footer .contacto .formulario textarea {
+
+    width: 100%;
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+    margin-bottom: 20px;
+
+}
+
+
+footer .contacto .formulario .boton {
+
+    background: #74BBCC;
+    color: #ffffff;
+    padding: 13px 49px;
+    border-radius: 7px;
+    margin: auto;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer .contacto .formulario .boton:hover {
+    background: #25acce ;
+}
+
+/* redes sociales  */
+
+
+footer .red_social {
+    background: #6fa5b3a9;
+    padding: 40px 0;
+    
+    
+    
+    
+}
+
+footer .red_social .container {
+
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+footer .red_social a {
+
+    font-size: 50px;
+    width: 150px;
+    height: 80px;
+    background: #74BBCC;
+    color: #ffffff;
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 10px;
+
+}
+
+
+footer .red_social .twitter:hover {
+    background:#1DA1F2;
+    color: #ffffff;
+
+}
+
+footer .red_social .github:hover {
+    background:#333333;
+    color: #ffffff;
+
+}
+
+footer .red_social .instagram:hover {
+    background:#E1306C;
+    color: #FFDC80;
+
+}
+
+footer .red_social .youtube:hover {
+    background:#FF0000;
+    color: #ffffff;
+
+}
+   
+   
+
+
+/* media queris  */
+    
+@media screen and (max-width: 800px) {
+
+    header .menuNav {
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor_Trabajos .trabajo {
+
+        width: 43%;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .main .trabajos .contenedor_Trabajos .trabajo {
+
+        width: 100%;
+        
+    }
+
+    header .contieneTexto .texto .tuNumbre {
+
+        font-size: 25px;
+
+    }
+
+    header .contieneTexto .texto .actividad {
+
+        font-size: 16px;
+
+    }
+
+    footer .red_social .container  {
+       
+        flex-wrap: wrap;
+        padding: 35px;
+        
+        
+        
+    }
+
+    footer .red_social a {
+        margin-bottom:  16px;
+        width: 70%;
+    }
+
+    
+
+ 
+
+
+}
+
+
+
+
+    
+
+
+
