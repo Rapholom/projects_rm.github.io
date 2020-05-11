@@ -1,0 +1,116 @@
+.nav{
+    background-color: #511a9986;
+}
+
+.nav a{
+   color: white;
+}
+
+
+
+
+
+a:hover{
+    color: 
+    #D4B3FF;
+}
+
+a {
+    color: #919DFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footercracks{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+}
+
+.footercracks .col-sm-6 h4{
+    color: white;
+    font-size: 36px;
+    
+}
+
+.middleCards{
+    background-color: #8A6BB3;
+}
+
+.jumbotron{
+    background-color:  white;
+    /* width: 100%; */
+}
+
+h4 {
+    background-color: #8A6BB3;
+    color: #FFF0D1;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: #511A99;
+}
+
+.megaNews {
+    background: white;
+    padding: 1%;
+    border-radius: 0.5%;
+}
+
+.megaNews .col-sm-12{
+    border: 2px solid #511A99;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 0.5%;
+}
+
+body{
+   background-color:  #511A99 ;
+}
+
+.middleCards {
+    padding: 2% 3%;
+    background: white;
+    
+}
+
+ .middleCards .col-sm-4 .card {
+    border: solid 2px #511A99;
+    border-radius: 7px;
+    padding: 1%;
+
+ }
+
+ ul.lista_conctact {
+     background: #511A99;
+     margin: 3%;
+     border-radius: 7px;
+     
+ }
+
+ ul.lista_conctact li a {
+    
+    color: white;
+    margin: 3%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    
+    
+}
+
+ul.lista_conctact li {
+    list-style: none;
+    
+}
+
+.media .media-body h5 {
+    font-family: 'Amatic SC', cursive;
+    color: #511A99;
+    font-size: 34px;
+
+}
